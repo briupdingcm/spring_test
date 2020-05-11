@@ -1,0 +1,8 @@
+---
+applications:
+  - name: spring-test-service
+    memory: 256M
+    instances: 1
+    host: localhost
+    domain: com.briup
+    path: build/libs/spring-test-service-0.1.0.jar
